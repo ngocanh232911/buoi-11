@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <div id="text">
+    <p>Dòng 1</p>
+    </div>
+    <p>Bấm nút để xóa dòng bên trên</p>
+    <button onClick="Submit()"> Xóa</button>
+    <script>
+        function Submit() {
+        const a=document.getElementById("text");
+        a.parentNode.removeChild(a)
+    }
+
+    </script>
+</body>
+</html>
